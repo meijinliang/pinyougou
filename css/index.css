@@ -1,0 +1,301 @@
+/* 这里放的是首页的样式 */
+.main {
+	margin: 10px 0 0 219px;
+	width: 980px;
+	height: 455px;
+}
+
+.focus {
+	position: relative;
+	width: 720px;
+	height: 455px;
+}
+
+.arrow-l,
+.arrow-r {
+
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 24px;
+	height: 40px;
+	background: rgba(0, 0, 0, .3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: 'iconfont';
+	font-size: 18px;
+
+}
+
+.arrow-r {
+	right: 0;
+}
+
+.circle {
+	position: absolute;
+	top: 425px;
+	left: 50%;
+	margin-left: -40px;
+}
+
+.circle li {
+	display: inline-block;
+	border-radius: 50%;
+	margin: 5px;
+	width: 12px;
+	height: 12px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.newsflash {
+	width: 250px;
+	height: 455px;
+}
+
+.news {
+	height: 163px;
+	border: 1px solid #CCCCCC;
+}
+
+.news-hd {
+	height: 32px;
+	line-height: 32px;
+	padding: 0 10px;
+	font-size: 14px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+.news-hd a {
+	float: right;
+	font-size: 12px;
+	font-family: 'iconfont';
+}
+
+.news-bd {
+	padding: 10px 0 0 15px;
+}
+
+.news-bd ul li {
+	height: 25px;
+	line-height: 25px;
+}
+
+.lifeservice {
+	overflow: hidden;
+	height: 208px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+}
+
+.lifeservice li {
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li:nth-child(4n) {
+	border-right: none;
+}
+
+.lifeservice li a {
+	display: block;
+	/* overflow: hidden;解决i 引起的外边距塌陷合并问题 */
+	overflow: hidden;
+	height: 100%;
+}
+
+.lifeservice li a p {
+	text-align: center;
+}
+
+.service_icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 10px auto;
+	background: url(../imges/icons.png) no-repeat;
+}
+
+.service_icon_huafei {
+	background-position: -17px -16px;
+}
+
+.bargain {
+	height: 75px;
+	margin-top: 5px;
+}
+
+/* 推荐模块 */
+.recom {
+	/* overflow: auto; */
+	margin-top: 10px;
+	height: 163px;
+}
+
+.recom_hd {
+	width: 200px;
+	height: 163px;
+	background: #5c5251;
+	text-align: center;
+}
+
+.recom_hd img {
+	margin: 30px 0 10px 0;
+}
+
+.recom_hd h3 {
+	font-size: 18px;
+	color: #fff;
+	font-size: normal;
+}
+
+.recom_bd {
+	height: 163px;
+	width: 1000px;
+	background: #ebebeb;
+}
+
+.recom_bd ul li {
+	float: left;
+	overflow: hidden;
+	width: 248px;
+	height: 145px;
+	margin: 10px 0;
+	border-right: 1px solid #dddddd;
+}
+
+.recom_bd ul li:last-child {
+	border-right: none;
+}
+
+.box_hd {
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+	margin-top: 10px;
+}
+
+.box_hd h3 {
+	float: left;
+	font-size: 18px;
+	font-weight: 400;
+	color: #C81623;
+}
+
+.tab_list ul li {
+	float: left;
+	line-height: 30px;
+}
+
+.tab_list ul li a {
+	border-right: 1px solid #999999;
+	padding: 0 15px;
+}
+
+.tab_list ul li:last-child a {
+	border-right: none;
+}
+
+.box_bd {
+	height: 360px;
+}
+.box_bd img{
+	/* 过渡写到本身上,谁做动画,给谁加过度 */
+	transition: all .2s;
+}
+.box_bd img:hover {
+	/* 我们鼠标经过图片 往右走 8px */
+	margin-left: 8px;
+}
+.tab_list_item>div {
+	float: left;
+	height: 360px;
+}
+
+.col_210 {
+	width: 210px;
+	background: #f9f9f9;
+	text-align: center;
+}
+
+.col_210 ul {
+	padding-left: 12px;
+}
+
+.col_210 ul li {
+	float: left;
+	width: 85px;
+	height: 34px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	line-height: 33px;
+	margin-right: 10px;
+}
+
+.col_329 {
+	position: relative;
+	width: 329px;
+	background: #aed6d8;
+	text-align: center;
+}
+
+.col_329 ul {
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	bottom: 15px;
+	width: 55px;
+}
+
+.col_329 ul li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	background: #3e3e3e;
+	margin-left: 5px;
+	border-radius: 6px;
+}
+
+.col_329 .col_329_first {
+	background-color: #fff;
+}
+
+.col_221 {
+	width: 221px;
+}
+
+.col_221 img {
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+}
+
+.col_219 {
+	width: 219px;
+}
+
+.col_219 img {
+	border-bottom: 1px solid #ededed;
+}
+/* 电梯导航 */
+.fixedtool {
+	position: fixed;
+	top: 100px;
+	left: 275px;
+	display: none;
+}
+
+.fixedtool ul li {
+	padding: 0 10px;
+	height: 32px;
+	border-bottom: 1px solid #ededed;
+	line-height: 35px;
+	cursor: pointer;
+}
+
+.current {
+	background: #c81623;
+	color: white;
+}
